@@ -110,7 +110,8 @@ const Results: React.FC<Props> = ({ data, error }) => {
                   variant="outlined"
                   sx={{ marginTop: 1 }}
                   // url del generador de nota
-                  href="#"
+                  href="https://cedsa.edu.ar/gen-nota-autorizacion/"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   Necesito autorizar a otra persona
                 </Button>
