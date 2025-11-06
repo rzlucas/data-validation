@@ -146,7 +146,7 @@ const App: React.FC = () => {
         {(data || error) && <Results data={data} error={error} />}
 
         <Typography variant="body2" sx={{ marginTop: "20px", textAlign: "center" }}>
-          © CEDSa {new Date().getFullYear()}. Todos los derechos reservados.
+          Sistema de Gestión Institucional. © CEDSa {new Date().getFullYear()}. 
         </Typography>
       </Container>
     </ThemeProvider>
